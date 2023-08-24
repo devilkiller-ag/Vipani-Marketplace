@@ -1,8 +1,9 @@
 import Link from "next/link";
 
+import getCategories from "@/actions/get-categories";
+
 import Container from "@/components/ui/container";
 import MainNav from "@/components/navbar/main-nav";
-import getCategories from "@/actions/get-categories";
 import NavbarActions from "./navbar-actions";
 
 export const revalidate = 0; // So that navbar is never cached
