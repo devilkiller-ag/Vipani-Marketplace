@@ -5,7 +5,7 @@ import Container from "@/components/ui/container";
 import Billboard from "@/components/billboard";
 import ProductList from "@/components/product-list";
 
-export const relvalidate = 0;
+export const revalidate = 0;
 
 const HomePage = async () => {
 
