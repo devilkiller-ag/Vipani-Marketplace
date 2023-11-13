@@ -15,12 +15,12 @@ const Summary = () => {
   const removeAll = useCart((state) => state.removeAll);
 
   useEffect(() => {
-    if(searchParams.get("success")) {
+    if (searchParams.get("success")) {
       toast.success("Payment Completed.");
       removeAll();
     }
 
-    if(searchParams.get("canceled")) {
+    if (searchParams.get("canceled")) {
       toast.error("Something went wrong.");
     }
 
@@ -47,7 +47,7 @@ const Summary = () => {
         </div>
         <Currency value={totalPrice} />
       </div>
-      <Button onClick={onCheckout} className="w-full mt-6">Checkout</Button>
+      <Button onClick={onCheckout} disabled={items.length === 0} className="w-full mt-6">Checkout</Button>
     </div>
   )
 }
