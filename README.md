@@ -1,4 +1,4 @@
-# Vipaṇi Marketplace
+# Vipaṇi Marketplace (Under Development)
 Vipaṇi Marketplace (Vipaṇi (विपणि) means Marketplace in Sanskrit) is a digital platform for the small-scale marketplace of cities of India to provide online availability to their vendors under their own name without losing the identity of the marketplace as well as the Vendor's store.
 
 - The Vipaṇi Marketplace is live [here](https://vipani.vercel.app/).
